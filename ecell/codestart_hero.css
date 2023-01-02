@@ -1,0 +1,155 @@
+.dev{
+    
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Libre Baskerville', serif;
+    /* Regular 400 Medium 500 SemiBold 600 Bold 700 ExtraBold 800 Black 900 */
+    /* Regular 400 Bold 700 */
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 10px;
+    margin-bottom: 35px;
+    color: white;
+    
+}
+
+.dev:nth-of-type(2){
+    font-size: 55px;
+    color: #9befef;
+}
+.para{
+    font-family: 'Roboto', sans-serif;
+    /* Thin 100,,,,,Light 300 */
+    color: white;
+    font-size: 18px;
+    line-height: 10px;
+    font-weight: 400;
+}
+.join{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255, 255, 255);
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 8px;
+    margin-top: 13px;
+}
+
+.right{
+    background-color: black;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.right-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 15px;
+    padding: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.logh{
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+    color: #3dbbbb;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.logh:hover{
+background: white !important;
+    color: #3dbbbb;
+    opacity: 1;
+ 
+}
+
+.email,.pass{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    border-radius: 0;
+    width: 280px;
+    padding-left: 0;
+    color: white;
+    margin-top: 30px;
+
+}
+.pass{
+        margin-bottom: 30px;
+}
+.logi{
+    width: 250px;
+    background: #3dbbbb;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.dont{
+    margin-top: 40px;
+    line-height: 1px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+.signUp{
+    color: #9befef;
+    font-family: 'Playfair Display', serif;
+    transition: all ease-in 0.1s;
+}
+.signUp:hover{
+    color: #3dbbbb;
+}
+.h{
+    
+    line-height: 1px;
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+
+}
+.l{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: white;
+}
+
+
+.login{
+width: 250px;
+font-size: 30px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 10px;
+
+}
+
